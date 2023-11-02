@@ -1,0 +1,125 @@
+.free {
+  padding-top: 45px;
+  padding-bottom: 100px;
+}
+
+.free__item {
+  max-width: 350px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.free__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+.free__title {
+  color: #ba4270;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.246px;
+  margin-bottom: 16px;
+}
+
+.free__text {
+  color: #6c8294;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.free__strong {
+  color: #36536b;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.431px;
+}
+
+.free__line {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  opacity: 0.25;
+  background-color: #36536b;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.free__sub_link {
+  display: block;
+  color: #36536b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 8px;
+
+  &::before {
+    content: "";
+    width: 12px;
+    height: 8px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url("../img/free__icon.svg");
+    background-size: 12px 8px;
+    margin-right: 24px;
+  }
+}
+
+.free__btn {
+  color: #36536b;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.115px;
+  border: none;
+  border-radius: 24px;
+  border: 1px solid #36536b;
+  padding: 16px 28px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.4s;
+
+  &:hover {
+    color: #fbfcfe;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.115px;
+    border-radius: 24px;
+    border: 1px solid #36536b;
+    background-color: #36536b;
+  }
+}
+
+// .free__sub__item {
+//   .free__sub_link:nth-child(4)::before {
+//     content: none;
+//     content: "";
+//     background-image: url("");
+//   }
+//   .free__sub_link:nth-child(5)::before {
+//     content: none;
+//     content: "";
+//     background-image: url("");
+//   }
+//   .free__sub_link:nth-child(6)::before {
+//     content: none;
+//     content: "";
+//     background-image: url("");
+//   }
+//   .free__sub_link:nth-child(7)::before {
+//     content: none;
+//     content: "";
+//     background-image: url("");
+//   }
+// }
+
+// .free__item:nth-child(2) {
+//   .free__sub__item {
+//     .free__sub_link:nth-child()
+//   }
+// }
